@@ -99,7 +99,7 @@ body {
 }
 
 .botton {
-
+    text-decoration: none;
     width: 295px;
     height: 55px;
     background-color: #1F450C;
@@ -110,6 +110,7 @@ body {
 }
 
 .botton p {
+    text-decoration: none;
     margin: 0px;
     color: #FFF;
     font-family: 'Manrope';
@@ -196,6 +197,7 @@ hr {
 }
 
 .leg__two {
+
     color: var(--, #000);
     font-family: 'Manrope';
     font-size: 16px;
@@ -209,11 +211,18 @@ hr {
 
 }
 
-.fingers {
-    color: var(--, #000);
-    font-family: 'Manrope';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+.leg__two>a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.foot__two>a {
+    margin-top: 30px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
 }
