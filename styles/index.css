@@ -197,14 +197,23 @@ hr {
 
 .leg__two {
     color: var(--, #000);
-    font-family: Manrope;
+    font-family: 'Manrope';
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
     justify-content: space-evenly;
-    
+
+}
+
+.fingers {
+    color: var(--, #000);
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
